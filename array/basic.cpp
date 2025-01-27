@@ -18,6 +18,11 @@ int main()
 cout<<endl;
    int arr2[5]={0};
    printarray(arr2,n);
+   int arr2size=sizeof(arr2)/sizeof(int);
+   cout<<endl<<"size of arr2: "<<arr2size<<endl;
+   //character array
+   char arr3[5]={'a','b','c','d','e'};
+   cout<<"character array at 4 index: "<<arr3[4]<<endl;
 
    return 0;
    
