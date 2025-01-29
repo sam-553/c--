@@ -10,5 +10,5 @@ int main()
         ans = ans ^ a[i];
         
     }
-    cout << ans << endl;
+    cout << ans <<endl;
 }
