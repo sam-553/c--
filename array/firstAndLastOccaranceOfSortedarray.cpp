@@ -54,4 +54,5 @@ int main(){
     int lastfound=lastoccurance(arr,size,key);
     cout<<"the first occarance of "<<" "<<key<<" "<<"is  at index "<<firstfound<<endl;
     cout<<"the  last occurance of"<<" "<<key<<" is at index "<<lastfound<<endl;
+    
 }
