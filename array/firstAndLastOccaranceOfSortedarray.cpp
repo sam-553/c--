@@ -52,7 +52,7 @@ int main(){
     cin>>key;
     int firstfound=firstoccurance(arr,size,key);
     int lastfound=lastoccurance(arr,size,key);
-    cout<<"the first occarance of "<<" "<<key<<" "<<"is  at index "<<firstfound<<endl;
-    cout<<"the  last occurance of"<<" "<<key<<" is at index "<<lastfound<<endl;
+    cout<<"the first occarance of "<<" "<<key<<" "<<"is  at index"<<firstfound<<endl;
+    cout<<"the  last occurance of"<<" "<<key<<" is at index"<<lastfound<<endl;
     
 }
