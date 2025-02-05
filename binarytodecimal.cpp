@@ -13,7 +13,7 @@ int main(){
             sum+=pow(2,i);
             
         }
-        n=n/10;
+        n/=10;
         i++;
     }
     cout<<"The decimal number is: "<<sum <<endl;
