@@ -1,17 +1,25 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
+#include <cmath>
 using namespace std;
+
 int main()
 {
     int n;
-    cout<<"Enter a decimal number: ";
-    cin>>n;
-    int ans=0;
-    int i=0;
-    while(n!=0){
-        int bit=n&1;
-        ans=(bit*pow(10,i))+ans;
+    int ans = 0;
+    int i = 1;
+
+    cout << "Enter a decimal number: ";
+    cin >> n;
+
+    while (n >0)
+    {
+        int rem=n%2;
+        ans=ans+(rem*i);
+        n=n/2;
+        i=i*10;
+       
+        
     }
-    cout<<"Binary equivalent is: "<<ans;
+
+    cout << "Binary equivalent: " << ans << endl;
 }
- 
