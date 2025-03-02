@@ -19,7 +19,7 @@ int main() {
         
         if (!found) {
             int count = 1;
-            for (int k = i + 1; k < n; k++) {
+            for (int k = i+1 ; k < n; k++) {
                 if (a[i] == a[k]) {
                     count++;
                 }
