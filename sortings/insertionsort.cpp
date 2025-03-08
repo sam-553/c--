@@ -1,19 +1,26 @@
 #include<iostream>
 using namespace std;
-int insertionSort(int a[],int size){
-    for(int i=0;i<size;i++){
-        int j=a[i];
-        while(j>0 && a[j]<a[j-1]){
-            swap(a[i],a[j]);
+int main(){
+    int n;
+    cout<<"Enter the number of elements: ";
+    cin>>n;
+    int arr[n];
+    cout<<"Enter the elements: ";
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+    for(int i=1;i<n;i++){
+        int key=arr[i];
+        int j=i-1;
+        while(j>=0 && arr[j]>key){
+            arr[j+1]=arr[j];
+            j--;
         }
+        arr[j+1]=key;
+    }
+    cout<<"Sorted array: ";
+    for(int i=0;i<n;i++){
+        cout<<arr[i]<<" ";
     }
     return 0;
-}
-int main(){
-    int a[10]={2,3,5,4,6,8,7,9,1,0};
-    insertionSort(a,10);
-    for(int i=0;i<10;i++){
-        cout<<a[i];
-    }
-
 }
