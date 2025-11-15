@@ -16,6 +16,6 @@ int main(){
 
     }
     cout<<"largest number is " <<largest<<endl;
-    cout<<"largest number is " <<secondlargest;
+    cout<<"second largest number is " <<secondlargest;
 
 }

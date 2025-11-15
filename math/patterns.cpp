@@ -126,4 +126,128 @@ int main(){
 //         cout<<endl;
 //      }
      
-// }
+// }  
+
+//     *
+//     *
+// * * * * *
+//     *
+//     *
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n=5,i,j;
+     
+//      int mid=(n+1)/2;
+//      for( i=1;i<=n;i++){
+//         for( j=1;j<=n;j++){
+//             if(i==mid||j==mid){
+//                 cout <<"*"<<" ";
+                
+//             }else{
+//                 cout <<" "<<" ";
+//             }
+//         }
+//         cout<<endl;
+//      }
+//     } 
+
+// * * * * * 
+// *       *
+// *       *
+// *       *
+// * * * * *
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n=5,i,j;
+     
+     
+//      for( i=1;i<=n;i++){
+//         for( j=1;j<=n;j++){
+//             if(i==1||i==n||j==1||j==n){
+//                 cout <<"*"<<" ";
+                
+//             }else{
+//                 cout <<" "<<" ";
+//             }
+//         }
+//         cout<<endl;
+//      }
+//     }
+   
+
+// *     *
+//  *   *
+//   * *
+//    *
+//   * *
+//  *   *
+// *     *
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n=7,i,j;
+     
+     
+//      for( i=0;i<n;i++){
+//         for( j=0;j<n;j++){
+//             if(i==j||j==n-i-1){
+//                 cout <<"*"<<"";
+                
+//             }else{
+//                 cout <<""<<" ";
+//             }
+//         }
+//         cout<<endl;
+//      }
+//     }
+  
+//    *   
+//   * *
+//  *   *
+// *     *
+//  *   *
+//   * *
+//    *
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n=7,i,j;
+     
+     
+//      for( i=0;i<n;i++){
+//         for( j=0;j<n;j++){
+//             if(i+j==n/2||j-i==n/2||i-j==n/2||i+j==n+(n/2)-1){
+//                 cout <<"*"<<"";
+                
+//             }else{
+//                 cout <<""<<" ";
+//             }
+//         }
+//         cout<<endl;
+//      }
+//     }
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    int n=7,i,j;
+     
+     
+     for( i=1;i<=n;i++){
+        for( j=1;j<=n-i;j++){
+           cout<<" ";
+        }
+        
+        for( j=1;j<=i;j++){
+           cout<<"* ";
+        }
+        cout<<endl;
+     }
+    }

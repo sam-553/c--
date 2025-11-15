@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include<algorithm>
+#include <algorithm>
 using namespace std;
 void rotate(vector<int> &arr, int k)
 {
@@ -13,8 +13,9 @@ void rotate(vector<int> &arr, int k)
 int main()
 {
     vector<int> arr = {1, 2, 3, 4, 5};
-    rotate(arr,2);
-    for(int val:arr){
-        cout<<val<<" ";
+    rotate(arr, 2);
+    for (int val : arr)
+    {
+        cout << val << " ";
     }
 }
